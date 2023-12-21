@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">           <!-- for add fav icon in website so put symbol or icon in href -->
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>                  <!-- for js check cdnjs.com site when use-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>                 <!-- for js check cdnjs.com site when use-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>    <!-- this link use for icon setup use cdnjs website fontawesome link-->   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" integrity="sha512-Jp3oCtkKo8j/WRrHq2jrYMtJogclQybtR6+81arCLTO/TvWj3oaF4NkZQs2bTqWJ8An8L2MLKKfvsn3H8vZP1g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>   <!-- this is usefull help for service section icons-->   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>   <!-- for css check cdnjs.com site when use-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js" integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+    <div class="scroll-up-btn">
+       <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAARxJREFUSEvt0z0uBVEYBuDnsgKJhEThp1FodIL4KSSWYAEa3IZeZQNULMAelIIQNqDQCEEhkViBkJN8hdyYOz/udQsz1cycc77nfO+ZaejR1eiRq4b/LPk66jrqdgmMxeBDlZiqflyjuApwHo9l8SrwBC4wEtgLFnFfBi8LT+IcQy3IK+bK4GXghF5iMNA99GE3nhO+hLsinReFp3D2DT3ATgD72I77NyzjNg8vAk/jFANR7AhbLYUPsRnv3rGQh+fB/XjGcBRNQDOjm7ShjRh7wjg+sjrPg9O6FZzgGOttIky10pw1rEZKmdOLwGnxLG7wmXN26WObwXUnzjivRqXxoh1XKt5uUQ13PNLf/E5d2Ux9xl2J9aei/y/qLzcaIx+Z62H5AAAAAElFTkSuQmCC"/>  -->
+       <i class="fas fa-angle-up"></i>                    <!--- now i tag and img both btn working because of cdnjs fontawesome use in link above-->
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"> <a href="#">Portfo<span>lio.</span></a></div>        
+            <ul class="menu">                                       <!-- sortcut is ul.menu>li*6>a -->
+                <li><a href="#home" class="menu-btn">Home</a></li>                  <!-- when you give id name in href link work when we are click on website menu home section-->
+                <li><a href="#about" class="menu-btn">About</a></li>                <!-- it is same as write in home comment about section we give id name about-->         
+                <li><a href="#services" class="menu-btn">Services</a></li>          <!-- it is same as write in home comment services section we give id name services -->
+                <li><a href="#skills" class="menu-btn">Skills</a></li>              <!-- it is same as write in home comment skills section we give id name skills -->
+                <li><a href="#teams" class="menu-btn">Teams</a></li>                <!-- it is same as write in home comment teams section we give id name teams -->
+                <li><a href="#contact" class="menu-btn">Contact</a></li>            <!-- it is same as write in home comment contact section we give id name contact-->
+            </ul>
+            <div class="menu-btn">                              
+            <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAIZJREFUSEtjZBggwDhA9jKMWky3kB8NalhQN1A5zDHMwxXU/6lsMYY9g85iKnsY07jRVI0viB0oCP8D6HpJCWpKUjrRqRqb5wbM4gELagqieDQ7MVClBQLKKvYE4oGiVI3L7AGzOIGBgUGBgI+JrhapmoKxGUZKyUVVx4xaTNXgxGfYyAtqANVICh9bbkQGAAAAAElFTkSuQmCC"/>  -->
+            <i class="fas fa-bars"></i>       <!-- now i tag and img both btn working because of cdnjs fontawesome use in link above top and on right corner of website three line as menu it is usefull in resposive site-->
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">                    <!--sortcut section.home#home -->
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Mayur Patel</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="#">Hire me</a>
+            </div>
+        </div>
+    </section>                 
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+           <h2 class="title">About me</h2>
+            <div class="about-content">                             
+              <div class="column left">             
+                <img src="img/my photo for abt.jpg" alt="">                                  <!-- if we need to change about in my image -->       
+              </div>
+              <div class="column right">
+                <div class="text">I'm Mayur and I'm a <span class="typing-2"></span></div>
+                <p> I completed my graduation from Gujarat University in 2022. And currently I'm pursuing Master of computer application from Silver Oak University.
+                    I specialize in HTML, CSS, and JavaScript, leveraging frameworks like React to create seamless web experiences.
+                    I've contributed to several projects that improved user engagement by implementing responsive design and optimizing performance.
+                    I'm always passionate and enthusiasm for frontend development, consistently seeking innovative ways to blend aesthetics and functionality in web design.</p>
+                <a href="#">Download CV</a>
+              </div>
+            </div>
+        </div>
+    </section>  
+
+     <!-- services section start -->
+     <section class="services" id="services">
+        <div class="max-width">
+           <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                    <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAfRJREFUSEvl1kvoTVEUx/HPPzGSRylJkSIDA88J5RExYSoTJQklYuCRKDH45zVCKUaSiYGZMvEOU69SIoWZouRRBmjVPtqd7uN/zj2n/8Cq2z37nnPWd6+1fmvtO2SUbGiUuNoCj8EGzMUH3MTXPMg2wFNwA8sz0Busx+vit6bBU3E/RVqu4isswK+40SS4DL2GI9iXPsHbi3NNgqfjHmanMC9jJ/5gfKpvBHkdm5oCz8RdzErQi9iV5fkwhtP6GE40AQ7oI0TEYRHpjgy6HZfSOtS9GJ8GBc9JQpqWHEftooaF7SnqiS9YgZeDqjr6M9Qbggq7gAAVthvn0+IzVuFFLvM6qp6XhBT9WgtaJ9UBfYjJg0CrgqP572TQsziQpW8/zvRKb51UR0neZi0zELRKxGXwSUR/hlWKtI6qF6ZUT0ovH8dvxHdYqHc1nuUp7XZdVdVR52ijCSWHHVum1wb6gedjLX7iCr5hEW6jiDyga/B0JJH2S3VsKMbftszZeyxJIy/SfisdAuvwvAq0l7iW4nEHZ+WxWJX37/luqd6Mqx28PsGy2rTsxW7gjensLDMeYGWb4FM42AFwCKfbAI9Nh3YMhbJ9TP+lfrQBHoej2IIZGSB6dyveNQHtpeq4NxFxGn0f6TSqsql+A6SKr0rP/n/gv2c+Yh/7xZL5AAAAAElFTkSuQmCC"/>    -->
+                        <i class="ri-brush-line"></i>              <!-- now i and img tag both work brush symbol because of top link i write in comment above -->
+                        <div class="text">Web Design</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur maxime suscipit nihil aperiam ex earum quisquam dolorum? 
+                           Error tenetur blanditiis minus provident voluptates. Nobis dicta fugiat unde molestiae ex officia dolore ad modi soluta facilis,
+                           illum saepe explicabo beatae neque doloribus asperiores? Ipsa cumque vitae placeat, quisquam aliquam voluptatum nemo nulla laborum 
+                           sapiente ad aut architecto beatae, sint sequi qui.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                      <!--<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAVVJREFUSEvt1z0vBFEYxfHfJiqR0GoUvgBBUJB4qVUKnURFS+UrkEjUCpGITqUTglIjND6CmkLnJXKTOzI7xiYzO2s3sre7k8z5zznzPM/cqWnTqrWJq2PAAxiNKTzgpVWJZB3P4TrC5nHTBVeVQDfqf1Vc/VjHbro+Wv2OA/QKY9jGTgJvFjyDEZzkDJs+XGIqNZAm8BH2zYBXcRQ17hDq4zVCeqPTBPqIWTw36zgNTbRuEaZdWBcIaYT1A1rW8RoOo+gb7jEZ9+fowWIq3oW007KO007fsRTneZjv05mpluu0DDgLXcZZFAqFFD4o443iLdNO6Xg/sYLTjMPQOgfx2kZevGXAW9jDb9DC344i7bSP0DbHhSk5NxQBV8H71uhI8CbCuauqVXeGa+S4KmCiU3eGy4IH8ZQzw6t4iIbgABjCcBWkjEbDqFvAy5fsmD+JP3P8Bd/FYR+qFJivAAAAAElFTkSuQmCC"/>       -->                     
+                      <i class="ri-line-chart-line"></i>         <!-- now i and img tag both work chart symbol because of top link i write in comment above -->
+                        <div class="text">Advertising</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur maxime suscipit nihil aperiam ex earum quisquam dolorum? 
+                           Error tenetur blanditiis minus provident voluptates. Nobis dicta fugiat unde molestiae ex officia dolore ad modi soluta facilis,
+                           illum saepe explicabo beatae neque doloribus asperiores? Ipsa cumque vitae placeat, quisquam aliquam voluptatum nemo nulla laborum 
+                           sapiente ad aut architecto beatae, sint sequi qui.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                     <!--  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAdZJREFUSEvV1s+LTlEcx/HXlB8bbCZK+Qs0NQspm1mzQMmCjSyGkqT8BcxfgLIgUrIQJYUFs7VRslDkH1CSbGaaBVnoq3Prdjr3Puc+z9MzzXd177nfc97n++vzPHM2yeY2iWtLg8/gBz5gozaD04h4DbvxABdnBT6ILwm2jIezAgcsIg2LS3ydFTigAV/Hnlpo+E1a40hzRPoWx6YNvoIFXMoOjoaKxgq7gZX0fBefcafvIn0R70j1O5cOiI5t6hlLR/EmfYvnVVzA/bT2OL3/KV2gC7wfr3AobfqJ03jXOiSivJ7eo75R5yU8x960/hEn8D2Hl8BH8LJic0QbkUadoxSNlS59Eu/b8Bwc9byJbRXp6hOOvEx/ca1d9zb4LJ4kYNTlKu51NEitcFzGLWxP54S8PsvHaQi4VjhiEm4jMhBWBMeH2lSPEo5BqW6yGp35AvM9ndknHHlz/cKpbCI6lesAXmOxME5dwhGu+Th9wnF8qxmnxmcnHqW6xFojICXhaPa0BeQpzuP3EAFp++aSWRKOtv/EktkxSf9lsiQcXf7F9XF+ncb6xzGkxqWb1grHyOiHRlwrHFMHjxKOkcDGYWjEu3AY+xDjMrYNBY8NmrS5tj74H7PKbh+udjK0AAAAAElFTkSuQmCC"/>       -->           
+                        <i class="ri-code-s-slash-line"></i>          <!--now i and img tag both work code symbol because of top link i write in comment above -->
+                        <div class="text">App Design</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur maxime suscipit nihil aperiam ex earum quisquam dolorum? 
+                           Error tenetur blanditiis minus provident voluptates. Nobis dicta fugiat unde molestiae ex officia dolore ad modi soluta facilis,
+                           illum saepe explicabo beatae neque doloribus asperiores? Ipsa cumque vitae placeat, quisquam aliquam voluptatum nemo nulla laborum 
+                           sapiente ad aut architecto beatae, sint sequi qui.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>Hello! I'm a dedicated frontend developer driven by a passion for crafting immersive digital experiences. My journey in the world of web development began with a curiosity for turning ideas into interactive realities.
+                        From mastering the core trio of HTML, CSS, and JavaScript to exploring cutting-edge frameworks like react js, each line of code I write is an opportunity to elevate user experiences.Frontend development is an ever-evolving landscape,
+                         and I thrive on staying ahead of the curve. 
+                        Exploring new technologies, embracing best practices, and diving into design trends are integral parts of my journey. I'm committed to continuous learning and contributing to the evolving narrative of web development.
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JAVASCRIPT</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>REACT JS</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="line reactjs"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>45%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MYSQL</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>PYTHON</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>JAVA</span>
+                            <span>35%</span>
+                        </div>
+                        <div class="line java"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">                                              <!-- once check the max-width in css how that is work actual-->
+            <h2 class="title">My teams</h2>
+            <div class="carousel owl-carousel">               <!-- don't know how actully this work -->  
+                <div class="card">
+                   <div class="box">
+                        <img src="img/profile-1.jpeg" alt="my pic">                   <!-- alt work when picture name is wrong -->
+                        <div class="text">someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit dolores quam voluptatem modi vero! Facere obcaecati amet doloremque
+                           odio repellat officiis quo, officia, optio impedit sit, quia repellendus nulla vitae.</p>
+                   </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                         <img src="img/profile-2.jpeg" alt="my pic">                   <!--change pic here for team-->
+                         <div class="text">someone name</div>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit dolores quam voluptatem modi vero! Facere obcaecati amet doloremque
+                            odio repellat officiis quo, officia, optio impedit sit, quia repellendus nulla vitae.</p>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                         <img src="img/profile-3.jpeg" alt="my pic">                   <!--change pic here for team-->
+                         <div class="text">someone name</div>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit dolores quam voluptatem modi vero! Facere obcaecati amet doloremque
+                            odio repellat officiis quo, officia, optio impedit sit, quia repellendus nulla vitae.</p>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                         <img src="img/profile-4.jpeg" alt="my pic">                   <!--change pic here for team-->
+                         <div class="text">someone name</div>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit dolores quam voluptatem modi vero! Facere obcaecati amet doloremque
+                            odio repellat officiis quo, officia, optio impedit sit, quia repellendus nulla vitae.</p>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                         <img src="img/profile-5.jpeg" alt="my pic">                   <!--change pic here for team-->
+                         <div class="text">someone name</div>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit dolores quam voluptatem modi vero! Facere obcaecati amet doloremque
+                            odio repellat officiis quo, officia, optio impedit sit, quia repellendus nulla vitae.</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">                                 
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                <div class="text">Get in Touch</div>
+                <p> Please let me know a convenient time for a call or meeting, or if there's any additional information you require from my end.
+                    <br>
+                    Thank you for your time and consideration. Looking forward to connecting soon.
+                </p>
+                  <div class="icons">
+                    <div class="row">
+                    <!--   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAa1JREFUSEvN1k2ITlEYB/DfyKCkJsmONGShRFnZMaVYWJimbBTKR0nZSbEcSXZmarBhhZIppWYxC1YslFBmVvKVUkoWbCR06t5per13nnOne3ud7fPc/+88vZ1z3j49Wn09ci0GXoIRbCk2PYN7+FNniLrwTtzC5g5kFofxLBevAw9hCssqwn9gD57m4LnwSnzA6iD0IzbhZ4TnwsdxIwor6un3vx/15sLXcDIKK+pXcDbqzYWv40QUVtQncCrqzYXPYzQKK+rncDnqzYXTmX0dhRVneSPeRr25cMq5iSNB4FWcidBUrwMvL26o/RXBaWPH8LtpuNzoIRyYd6Y/4w4e5IBlT52J6+SGvf89vA7D2IoNWNox0i+8w0tM4lM0cjTxNlzCviioo/6wuL3Sq9V1LQSnm2oc/TXRsj09FEdxu9v3VfBB3F0kOP+zdLT2Yrozqxu8Fu+xogE4RXzFeqT3em51g8dwuiG0jLmAixH8BWsahp9jx0LwIN40jJZxq/C96uZKf+aetASno/mqCt6FRy3Bu/G4Ch7A9pbgF/hWBbdk/hsbXZmtbaRn8F8SWDwfL/V22AAAAABJRU5ErkJggg=="/>      -->
+                            <i class="fas fa-user"></i>                                     <!-- now both img and i tag work user symbol because of cdnjs fontawesome link -->                      
+                            <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Mayur Patel</div>
+                         </div>
+                        </div> 
+                            <div class="row">
+                       <!--    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAjRJREFUSEvF1kvID1EYx/HPi5AFsqPkllsWZEEuGyxkJYoVYkNi47qwk2LhshElJbeVyJIkRIrIpYQiRDaIpSSXnvr/a97pzMyZ9128z2aaOb/nfM9zLr8zPQYoegaIqy/gCZiLifiHD3iCj22KyAWHbgt2YmoF4DWO4ExnQLXjyAGPw1XMy6zoHlbjW52+CTwNdzA2E9qVfcIixDMZdeCReIZJLaFd+VMswK9Ufh34PNZXQO/idqdtGRZX6I5hVxvwfDxIJLzCWrwotc3GFUwpff+LGXhT7quq4hjpjpL4S+cYfa6oLpYkpndUqX1PZ7f3+lwFjopmlTrYiHMN670bh0uaG1ieW/EPjC6JxyC+18V0xHkuxntMzgX/xpCSON7/NICH42dJE+8jcsHvEscorLLJFmOdI7cYb1NuV7XGNxHHpBjbcLKh4rDUoyXNdazIrfg4tpfE3zGnxo3Cwx8jjKcYsdn25oLDlx8mqouNsyZxjkN/GeMTOTMTG672WnyJSErFLcRlELGyMxMpXfj8klRDnWVuyDi3DUtuacFae2mbbqf7WNjUe0X7BcTgk9EEDkN4jmEt4V8RuZWG0wQO3qbOX0UuO8wn7uJHdQk54Mg/hc2Z5LhKLzZpc8Fhl5ewqqHDQ9jXBI32XHBoB+Ms1lV0fLrFrLQCdwd6AlsL8LjsD2B/zt9lN69NxcVCw04PYlDHya7lTG9R01dw9BF/oEMT9pk1hv6AswB9NZB+dV6X/B9sMVkf+pyoVQAAAABJRU5ErkJggg=="/>      -->
+                            <i class="fas fa-map-marker-alt"></i>                             <!-- now both img and i tag work user symbol because of cdnjs fontawesome link -->                      
+                            <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Ahmedabad, India</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAbJJREFUSEvt1j9oFFEQx/HPSUBEmzQ22giKnZIqgpVdbKKdjUg6SaMgIiGK/0iCSBC0ETuRNOmSFEoqK0Er0U4U0sTGxkYRQVQmzMFjyXG7d6cRzMLCMjvv952ZfbPzWrboam0R1zb4r1W+WuqrmMS+AUfwEQ8x29YtwSfxdMDAqtwYVsNYgiPbmfT8it0DCqLUCsZcFXwDNxN2AAs43if8Bc5iLXVutRllxiU47HFfzAh3NQzgG6ZxH7/yDolNwZFtwKuVOJjZj9aEv8osPxT+Aa8FXsJ5fMoFO3AZt7GzQwDfcR3z+Jk+e/EIp+uCw+8zLuFxATqMRRytwN/gDN4V9gncw3Bh61rqUvc5zmE9jUOYyuzCFFW4gx/5fj+e4MQmlWkEjvVfcA0Pio1yJIXfFvviQrbkng6fozG4rfMys39fET6UWR7rsgF7BodubKIQuJuQK9kNnTZdGUtf4LbQ63wYqdlmtdqpgVYj14Fk3IjYpI97Ee625t/KuByL3SLv9X38CzYOA+V0Gsdyr4o1153CShUcgyB+6HES+RNHn2c5eDYGyPbxtuan6t/t/yv1bzG/WB8BSueFAAAAAElFTkSuQmCC"/>  -->
+                            <i class="fas fa-envelope"></i>                                   <!--now both img and i tag work user symbol because of cdnjs fontawesome link -->            
+                            <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">mayurpatel2741@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="text">Message me</div>
+                <form action="#">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>                                               <!-- in # give a link what you want when i click on mayur patel name on site-->
+        <span>Created By <a href="#">MayurPatel</a> |      <!--copyright symbol now work here because  i use cdnjs fontawesome on top link--> 
+            <span class="far fa-copyright"></span> 2023 All rights reserved.
+         </span>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
